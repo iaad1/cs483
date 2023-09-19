@@ -10,7 +10,13 @@ import math
 # Global vars
 CLASSES_LEN=7
 FEATURES=["hair","feathers","eggs","milk","airborne","aquatic","predator","toothed","backbone","breathes","venomous","fins","legs","tail","domestic","catsize"]
+ALPHA=1
 # Functions
+
+def laPlaceIt(top, bottom):
+    numerator = top * ALPHA
+    denominator = bottom + (ALPHA * 2)
+    return numerator / denominator
 
 # Returns a zero based array of the probabilites for each class 
 # (to get a classes prob, subtract 1 and get the element from this array)
@@ -44,11 +50,27 @@ def calcConditionalProbs(df):
                 qryStr += ft + " == 1"
             rows = df.query(qryStr) # get all rows following the above
             cnt = len(rows)
-            featureDict[ft] = cnt / totalCnt
+            featureDict[ft] = laPlaceIt(cnt, totalCnt)
             # Check if feature is 
         arr.append(featureDict) # Add the dict to the array, pretty simple.
     return arr
 
+def calcProbForRow(row, classProb, condProb: dict):
+    cprob = 0 # Start at one, should be real small by the time we are done.
+    # Loop through each feature, and multiply the ones we need to cprob
+    for ft in FEATURES:
+        val = float(row.get(ft))
+        if (val > 0):
+            print(condProb[ft])
+            cprob +=  math.log2(condProb[ft])
+    return cprob
+
+def printCols(df):
+    cols = df.columns
+    cols = ",".join(cols)
+    # Add the three additional columns
+    cols += ",predicted,probability,correct?"
+    print(cols)
 
 # Begin the program
 # Load the csv in
@@ -66,6 +88,37 @@ classProbs = calcClassProbs(training) # Array should contain a zeroed array of c
 # Generate all the conditional probabilites
 condProbs = calcConditionalProbs(training)
 
+# Print the columns
+printCols(test)
+
 # Now we got all the probabilites we need. Loop through the testing data to generate
 for i, row in test.iterrows():
-    # Loop over each class and calculate the probability for each. Store the (normalized) probability 
+    # Loop over each class and calculate the probability for each. Store the (unnormalized) probability
+    probs = []
+    for j in range(CLASSES_LEN):
+        classProb = classProbs[j]
+        condProb = condProbs[j]
+        prob = calcProbForRow(row, classProb, condProb)
+        probs.append(prob)
+    print(probs)
+    # Get the largest value in the list
+    biggest = max(probs)
+    # Get the class number that it is (0 indexed)
+    cIndex = probs.index(biggest)
+    # Turn the class into a string (1 indexed)
+    classGuess = str(cIndex + 1)
+    # Get the sum of all the probs (for normalizing)
+    psum = sum(probs)
+    normalized = biggest / psum
+    # Get the rows data
+    rowArr = row.to_list()
+    # Turn to csv string
+    rowStr = ",".join(map(str, rowArr))
+
+    # Get the ACTUAL class type
+    actualClass = row.get('class_type')
+    correct = "CORRECT" if actualClass == classGuess else "wrong"
+
+    # Add the three new values
+    rowStr += classGuess + "," + str(normalized) + "," + correct
+    print(rowStr)
