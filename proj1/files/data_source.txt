@@ -1,0 +1,3 @@
+zoo.csv and class.csv:
+https://www.kaggle.com/datasets/uciml/zoo-animal-classification
+license: DbCL: https://opendatacommons.org/licenses/dbcl/1-0/
