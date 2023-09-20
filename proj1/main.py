@@ -13,6 +13,7 @@ FEATURES=["hair","feathers","eggs","milk","airborne","aquatic","predator","tooth
 ALPHA=0.01
 # Functions
 
+# Laplace function, takes in two parameters, top and botom, which should both be counts
 def laPlaceIt(top, bottom):
     numerator = top + ALPHA
     denominator = bottom + (ALPHA * CLASSES_LEN)
@@ -56,6 +57,8 @@ def calcConditionalProbs(df):
         arr.append(featureDict) # Add the dict to the array, pretty simple.
     return arr
 
+# Calculate the probability that a row is of a certain class,
+# Class prob is the probaballity of getting the class, condProb is the (feature | class) for the class
 def calcProbForRow(row, classProb, condProb: dict):
     cprob = 0 # Start at one, should be real small by the time we are done.
     # Loop through each feature, and multiply the ones we need to cprob
@@ -67,6 +70,7 @@ def calcProbForRow(row, classProb, condProb: dict):
     cprob += math.log2(classProb) # add (multiply) by the probability of being the class
     return math.pow(2, cprob) # Bring two to the power of cprob to get the actual prob
 
+# Print all the column names for the csv
 def printCols(df):
     cols = list(df.columns)
     # Add the three additional columns
