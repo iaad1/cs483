@@ -75,7 +75,7 @@ for i in range(0, 1): # Would make this more, but this is all not needed
 # Split the data into features and the target variable
 xs = df.drop('SalePrice', axis=1)
 ys = df['SalePrice']
-
+print(xs)
 # Create the regressor, base is a square root.
 regressor = TransformedTargetRegressor(                
     LinearRegression( n_jobs = -1 ),
