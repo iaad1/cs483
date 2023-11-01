@@ -2,7 +2,6 @@
 # Judah Tanninen
 # Project 3 Trees vs. Lines
 import pandas as pd
-import numpy as np
 from sklearn.linear_model import LinearRegression
 from sklearn.base import TransformerMixin, BaseEstimator
 from sklearn.pipeline import Pipeline
@@ -37,18 +36,15 @@ num_features = ['Lot Area', 'Lot Frontage', 'Overall Qual', 'Overall Cond', 'Yea
 cat_features=[ 'House Style', 'Bldg Type', 'Kitchen Qual', 'Garage Qual', 'Paved Drive', 'Fence', 'Functional', 'Bsmt Qual', 'Exter Qual', 'Garage Type']
 
 catDF = pd.get_dummies(df[cat_features], dtype=float)
-df = pd.concat([df, catDF], axis=1)
-df = df.fillna(0)
+df = pd.concat([df, catDF], axis=1) # Smush the new columns into the old df
+df = df.fillna(0) # Replace nans with 0
 
-
-# Create relations between old categorical features and the new dummy columns, so we can easily use the new columns
+# Get the new column names from the get_dummies function
 catFeatures = getNewColumns(cat_features, catDF)
 
 ys = df['SalePrice']
 xs = df.drop('SalePrice', axis=1)
 
-# Add the new columns to the dataframe
-xs = pd.concat([xs, catDF], axis=1)
 # All columns
 columns = [num_features + catFeatures]
 
@@ -116,3 +112,4 @@ for item in models:
     print(search.best_score_)
     print(search.best_params_)
 
+# Im the warren buffet of housing.
