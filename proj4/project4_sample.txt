@@ -1,0 +1,613 @@
+Grass
+-----------
+2 clusters: 0.32466886500672937
+3 clusters: 0.2873244344135062
+4 clusters: 0.20311280143689148
+5 clusters: 0.2303671074770948
+6 clusters: 0.19857441089000172
+7 clusters: 0.16055058687976612
+8 clusters: 0.2229807476392855
+9 clusters: 0.18314687051303585
+10 clusters: 0.16642817161333634
+11 clusters: 0.1657450315093135
+12 clusters: 0.19458741806857563
+13 clusters: 0.16586091682750756
+14 clusters: 0.16205627141649462
+best number of clusters: 2
+best score: 0.32466886500672937
+
+Fire
+-----------
+2 clusters: 0.36424865335184975
+3 clusters: 0.35754135960053
+4 clusters: 0.3101054604903729
+5 clusters: 0.29050014804254787
+6 clusters: 0.2135215908854996
+7 clusters: 0.2159514128258865
+8 clusters: 0.22743331614013723
+9 clusters: 0.22502929774620073
+10 clusters: 0.2439951741694214
+11 clusters: 0.23007965217757692
+12 clusters: 0.21707541144991602
+13 clusters: 0.22407998808298002
+14 clusters: 0.222323954336969
+best number of clusters: 2
+best score: 0.36424865335184975
+
+Water
+-----------
+2 clusters: 0.30594956822499497
+3 clusters: 0.21724165672270615
+4 clusters: 0.2110151162481674
+5 clusters: 0.15402686254061335
+6 clusters: 0.16630026119728275
+7 clusters: 0.16638048995814186
+8 clusters: 0.14966794982058412
+9 clusters: 0.15697153511907883
+10 clusters: 0.1729252182546908
+11 clusters: 0.15598168633839865
+12 clusters: 0.17851218803509702
+13 clusters: 0.16895378608909842
+14 clusters: 0.1709237584587104
+best number of clusters: 2
+best score: 0.30594956822499497
+
+Bug
+-----------
+2 clusters: 0.3049215286212625
+3 clusters: 0.30917277263364407
+4 clusters: 0.30663629546730076
+5 clusters: 0.29091121527243363
+6 clusters: 0.2344573125922539
+7 clusters: 0.23976128280818687
+8 clusters: 0.22823256619313023
+9 clusters: 0.2279305047161555
+10 clusters: 0.24846423022095773
+11 clusters: 0.2178443749957787
+12 clusters: 0.21395432963622615
+13 clusters: 0.22054262945029454
+14 clusters: 0.22570649382004734
+best number of clusters: 3
+best score: 0.30917277263364407
+
+Normal
+-----------
+2 clusters: 0.3107747682384972
+3 clusters: 0.3203305632172536
+4 clusters: 0.2918358743762092
+5 clusters: 0.3134890998389302
+6 clusters: 0.2205377663504796
+7 clusters: 0.22368330094394545
+8 clusters: 0.23101380972754237
+9 clusters: 0.2145720690788026
+10 clusters: 0.21906001922978843
+11 clusters: 0.19962998476880026
+12 clusters: 0.20244904519122062
+13 clusters: 0.1689922410028448
+14 clusters: 0.17130045467417884
+best number of clusters: 3
+best score: 0.3203305632172536
+
+
+Grass
+-----
+Cluster 0
+                        Name   HP  Attack  Defense  Sp. Atk  Sp. Def  Speed
+2                   Venusaur   80      82       83      100      100     80
+3      VenusaurMega Venusaur   80     100      123      122      120     80
+50                 Vileplume   75      80       85      110       90     50
+77                Victreebel   80     105       65      100       70     70
+111                Exeggutor   95      95       85      125       65     55
+122                  Tangela   65      55      115      100       40     60
+168                 Meganium   80      82      100       83      100     80
+197                Bellossom   75      80       95       90      100     50
+204                 Jumpluff   75      55       70       55       95    110
+207                 Sunflora   75      75       55      105       85     30
+274                 Sceptile   70      85       65      105       85    120
+275    SceptileMega Sceptile   70     110       75      145       85    145
+298                  Shiftry   90     100       60       90       60     80
+310                  Breloom   60     130       80       60       60     70
+363                 Cacturne   70     115       60      115       60     55
+390                  Tropius   99      68       83       72       87     51
+433                   Grotle   75      89       85       55       65     36
+434                 Torterra   95     109      105       75       85     56
+452                 Roserade   60      70       65      125      105     90
+468                  Cherrim   70      60       70       87       78     85
+505                Carnivine   74     100       72       90       72     46
+510                Abomasnow   90      92       75       92       85     60
+511  AbomasnowMega Abomasnow   90     132      105      132      105     30
+516                Tangrowth  100     100      125      110       50     50
+521                  Leafeon   65     110      130       60       65     95
+550        ShayminLand Forme  100     100      100      100      100    100
+551         ShayminSky Forme  100     103       75      120       75    127
+556                Serperior   75      75       95       75       95    113
+571                 Simisage   75      98       63       98       63    101
+607               Whimsicott   60      67       85       77       75    116
+609                Lilligant   70      60       75      110       75     90
+617                 Maractus   75      86       67      106       67     60
+652                Amoonguss  114      85       70       85       80     30
+659               Ferrothorn   74      94      131       54      116     20
+701                 Virizion   91      90       72       90      129    108
+720               Chesnaught   88     107      122       74       75     64
+741                   Gogoat  123     100       62       97       81     68
+Mean HP: 81.16216216216216
+Mean Attack: 90.37837837837837
+Mean Defense: 85.08108108108108
+Mean Sp. Atk: 94.29729729729729
+Mean Sp. Def: 82.24324324324324
+Mean Speed: 73.8108108108108
+
+Cluster 1
+           Name  HP  Attack  Defense  Sp. Atk  Sp. Def  Speed
+0     Bulbasaur  45      49       49       65       65     45
+1       Ivysaur  60      62       63       80       80     60
+48       Oddish  45      50       55       75       65     30
+49        Gloom  60      65       70       85       75     40
+75   Bellsprout  50      75       35       70       30     40
+76   Weepinbell  65      90       50       85       45     55
+110   Exeggcute  60      40       80       60       45     40
+166   Chikorita  45      49       65       49       65     45
+167     Bayleef  60      62       80       63       80     60
+202      Hoppip  35      35       40       35       55     50
+203    Skiploom  55      45       50       45       65     80
+206     Sunkern  30      30       30       30       30     30
+272     Treecko  40      45       35       65       55     70
+273     Grovyle  50      65       45       85       65     95
+296      Seedot  40      40       50       30       30     30
+297     Nuzleaf  70      70       40       60       40     60
+309   Shroomish  60      40       60       40       60     35
+344     Roselia  50      60       45      100       80     65
+362      Cacnea  50      85       40       85       40     35
+432     Turtwig  55      68       64       45       55     31
+451       Budew  40      30       35       50       70     55
+467     Cherubi  45      35       45       62       53     35
+509      Snover  60      62       50       62       60     40
+554       Snivy  45      45       55       45       55     63
+555     Servine  60      60       75       60       75     83
+570     Pansage  50      53       48       53       48     64
+606    Cottonee  40      27       60       37       50     66
+608     Petilil  45      35       50       70       50     30
+651     Foongus  69      55       45       55       55     15
+658   Ferroseed  44      50       91       24       86     10
+718     Chespin  56      61       65       48       45     38
+719   Quilladin  61      78       95       56       58     57
+740      Skiddo  66      65       48       62       57     52
+Mean HP: 51.696969696969695
+Mean Attack: 53.96969696969697
+Mean Defense: 54.78787878787879
+Mean Sp. Atk: 58.666666666666664
+Mean Sp. Def: 57.18181818181818
+Mean Speed: 48.60606060606061
+
+
+Fire
+-----
+Cluster 0
+                          Name   HP  Attack  Defense  Sp. Atk  Sp. Def  Speed
+6                    Charizard   78      84       78      109       85    100
+7    CharizardMega Charizard X   78     130      111      130       85    100
+8    CharizardMega Charizard Y   78     104       78      159      115    100
+43                   Ninetales   73      76       75       81      100    100
+64                    Arcanine   90     110       80      100       80     95
+84                    Rapidash   65     100       70       80       80    105
+135                     Magmar   65      95       57      100       85     93
+147                    Flareon   65     130       60       95      110     65
+158                    Moltres   90     100       90      125       85     90
+171                 Typhlosion   78      84       78      109       85    100
+263                      Entei  115     115       85       90       75    100
+270                      Ho-oh  106     130       90      110      154     90
+278                   Blaziken   80     120       70      110       70     80
+279      BlazikenMega Blaziken   80     160       80      130       80    100
+353                   Camerupt   70     100       70      105       75     40
+354      CameruptMega Camerupt   70     120      100      145      105     20
+355                    Torkoal   70      85      140       85       70     20
+437                  Infernape   76     104       71      104       71    108
+518                  Magmortar   75      95       67      125       95     83
+542                    Heatran   91      90      106      130      106     77
+558                    Pignite   90      93       55       70       55     55
+559                     Emboar  110     123       65      100       65     65
+573                   Simisear   75      98       63       98       63    101
+615    DarmanitanStandard Mode  105     140       55       30       55     95
+616         DarmanitanZen Mode  105      30      105      140      105     55
+692                    Heatmor   85      97       66      105       66     65
+723                    Delphox   75      69       72      114      100    104
+731                 Talonflame   78      81       71       74       69    126
+736                     Pyroar   86      68       72      109       66    106
+799                  Volcanion   80     110      120      130       90     70
+Mean HP: 82.73333333333333
+Mean Attack: 101.36666666666666
+Mean Defense: 80.0
+Mean Sp. Atk: 106.4
+Mean Sp. Def: 84.83333333333333
+Mean Speed: 83.6
+
+Cluster 1
+            Name  HP  Attack  Defense  Sp. Atk  Sp. Def  Speed
+4     Charmander  39      52       43       60       50     65
+5     Charmeleon  58      64       58       80       65     80
+42        Vulpix  38      41       40       50       65     65
+63     Growlithe  55      70       45       70       50     60
+83        Ponyta  50      85       55       65       65     90
+169    Cyndaquil  39      52       43       60       50     65
+170      Quilava  58      64       58       80       65     80
+236       Slugma  40      40       40       70       40     20
+237     Magcargo  50      50      120       80       80     30
+259        Magby  45      75       37       70       55     83
+276      Torchic  45      60       40       70       50     45
+277    Combusken  60      85       60       85       60     55
+352        Numel  60      60       40       65       45     35
+435     Chimchar  44      58       44       58       44     61
+436     Monferno  64      78       52       78       52     81
+557        Tepig  65      63       45       45       45     45
+572      Pansear  50      53       48       53       48     64
+614     Darumaka  70      90       45       15       45     50
+721     Fennekin  40      45       40       62       60     60
+722      Braixen  59      59       58       90       70     73
+730  Fletchinder  62      73       55       56       52     84
+735       Litleo  62      50       58       73       54     72
+Mean HP: 52.40909090909091
+Mean Attack: 62.13636363636363
+Mean Defense: 51.09090909090909
+Mean Sp. Atk: 65.22727272727273
+Mean Sp. Def: 55.0
+Mean Speed: 61.95454545454545
+
+
+Water
+-----
+Cluster 0
+          Name   HP  Attack  Defense  Sp. Atk  Sp. Def  Speed
+9     Squirtle   44      48       65       50       64     43
+10   Wartortle   59      63       80       65       80     58
+59     Psyduck   50      52       48       65       50     55
+65     Poliwag   40      50       40       40       40     90
+66   Poliwhirl   65      65       65       50       50     90
+78   Tentacool   40      40       35       50      100     70
+85    Slowpoke   90      65       65       40       40     15
+93        Seel   65      45       55       45       70     45
+97    Shellder   30      65      100       45       25     40
+106     Krabby   30     105       90       25       25     50
+125     Horsea   30      40       70       70       25     60
+127    Goldeen   45      67       60       35       50     63
+129     Staryu   30      45       55       70       55     85
+139   Magikarp   20      10       55       15       20     80
+172   Totodile   50      65       64       44       48     43
+173   Croconaw   65      80       80       59       63     58
+184   Chinchou   75      38       38       56       56     67
+198     Marill   70      20       50       20       50     40
+199  Azumarill  100      50       80       60       80     50
+209     Wooper   55      45       45       25       25     15
+240    Corsola   55      55       85       65       85     35
+241   Remoraid   35      65       35       65       35     65
+280     Mudkip   50      70       50       50       50     40
+281  Marshtomp   70      85       70       60       70     50
+293      Lotad   40      30       30       40       50     30
+294     Lombre   60      50       50       60       70     50
+301    Wingull   40      30       30       55       30     85
+302   Pelipper   60      50      100       85       70     65
+347   Carvanha   45      90       20       65       20     65
+350    Wailmer  130      70       35       70       35     60
+371   Barboach   50      48       43       46       41     60
+373   Corphish   43      80       65       50       35     35
+381     Feebas   20      15       20       10       55     80
+401   Clamperl   35      64       85       74       55     32
+405    Luvdisc   43      30       55       40       65     97
+438     Piplup   53      51       53       61       56     40
+439   Prinplup   64      66       68       81       76     50
+465     Buizel   55      65       35       60       30     85
+469    Shellos   76      48       48       57       62     34
+506    Finneon   49      49       56       49       61     66
+508    Mantyke   45      20       50       60      120     50
+560   Oshawott   55      55       45       63       45     45
+561     Dewott   75      75       60       83       60     60
+574    Panpour   50      53       48       53       48     64
+595    Tympole   50      50       40       50       40     64
+596  Palpitoad   75      65       55       65       55     69
+625   Tirtouga   54      78      103       53       45     22
+641   Ducklett   62      44       50       44       50     55
+653   Frillish   55      40       50       65       85     40
+724    Froakie   41      56       40       62       44     71
+725  Frogadier   54      63       52       83       56     97
+762  Clauncher   50      53       62       58       63     44
+Mean HP: 53.69230769230769
+Mean Attack: 54.25
+Mean Defense: 56.30769230769231
+Mean Sp. Atk: 54.05769230769231
+Mean Sp. Def: 53.42307692307692
+Mean Speed: 56.19230769230769
+
+Cluster 1
+                        Name   HP  Attack  Defense  Sp. Atk  Sp. Def  Speed
+11                 Blastoise   79      83      100       85      105     78
+12   BlastoiseMega Blastoise   79     103      120      135      115     78
+60                   Golduck   80      82       78       95       80     85
+67                 Poliwrath   90      95       95       70       90     70
+79                Tentacruel   80      70       65       80      120    100
+86                   Slowbro   95      75      110      100       80     30
+87       SlowbroMega Slowbro   95      75      180      130       80     30
+94                   Dewgong   90      70       80       70       95     70
+98                  Cloyster   50      95      180       85       45     70
+107                  Kingler   55     130      115       50       50     75
+126                   Seadra   55      65       95       95       45     85
+128                  Seaking   80      92       65       65       80     68
+130                  Starmie   60      75       85      100       85    115
+140                 Gyarados   95     125       79       60      100     81
+141    GyaradosMega Gyarados   95     155      109       70      130     81
+142                   Lapras  130      85       80       85       95     60
+145                 Vaporeon  130      65       60      110       95     65
+174               Feraligatr   85     105      100       79       83     78
+185                  Lanturn  125      58       58       76       76     67
+201                 Politoed   90      75       75       90      100     70
+210                 Quagsire   95      85       85       65       65     35
+214                 Slowking   95      75       80      100      110     30
+227                 Qwilfish   65      95       75       55       55     85
+242                Octillery   75     105       75      105       75     45
+244                  Mantine   65      40       70       80      140     70
+249                  Kingdra   75      95       95       95       95     85
+264                  Suicune  100      75      115       90      115     85
+282                 Swampert  100     110       90       85       90     60
+283    SwampertMega Swampert  100     150      110       95      110     70
+295                 Ludicolo   80      70       70       90      100     70
+348                 Sharpedo   70     120       40       95       40     95
+349    SharpedoMega Sharpedo   70     140       70      110       65    105
+351                  Wailord  170      90       45       90       45     60
+372                 Whiscash  110      78       73       76       71     60
+374                Crawdaunt   63     120       85       90       55     55
+382                  Milotic   95      60       79      100      125     81
+402                  Huntail   55     104      105       94       75     52
+403                 Gorebyss   55      84      105      114       75     52
+404                Relicanth  100      90      130       45       65     55
+421                   Kyogre  100     100       90      150      140     90
+422      KyogrePrimal Kyogre  100     150       90      180      160     90
+440                 Empoleon   84      86       88      111      101     60
+466                 Floatzel   85     105       55       85       50    115
+470                Gastrodon  111      83       68       92       82     39
+507                 Lumineon   69      69       76       69       86     91
+541                   Palkia   90     120      100      150      120    100
+547                   Phione   80      80       80       80       80     80
+548                  Manaphy  100     100      100      100      100    100
+562                 Samurott   95     100       85      108       70     70
+575                 Simipour   75      98       63       98       63    101
+597               Seismitoad  105      95       75       85       75     74
+610                 Basculin   70      92       65       80       55     98
+626               Carracosta   74     108      133       83       65     32
+642                   Swanna   75      87       63       87       63     98
+654                Jellicent  100      60       70       85      105     60
+655                Alomomola  165      75       80       40       45     65
+713     KeldeoOrdinary Forme   91      72       90      129       90    108
+714     KeldeoResolute Forme   91      72       90      129       90    108
+726                 Greninja   72      95       67      103       71    122
+763                Clawitzer   71      73       88      120       89     59
+Mean HP: 87.98333333333333
+Mean Attack: 91.4
+Mean Defense: 87.36666666666666
+Mean Sp. Atk: 92.8
+Mean Sp. Def: 85.33333333333333
+Mean Speed: 74.43333333333334
+
+
+Bug
+-----
+Cluster 0
+                        Name  HP  Attack  Defense  Sp. Atk  Sp. Def  Speed
+15                Butterfree  60      45       50       90       80     70
+18                  Beedrill  65      90       40       45       80     75
+19     BeedrillMega Beedrill  65     150       40       15       80    145
+52                  Parasect  60      95       80       60       80     30
+54                  Venomoth  70      65       60       90       75     90
+132                  Scyther  70     110       80       55       80    105
+136                   Pinsir  65     125      100       55       70     85
+137        PinsirMega Pinsir  65     155      120       65       90    105
+180                   Ledian  55      35       50       55      110     85
+182                  Ariados  70      90       70       60       60     40
+208                    Yanma  65      65       45       75       45     95
+220               Forretress  75      90      140       60       60     40
+228                   Scizor  70     130      100       55       80     65
+229        ScizorMega Scizor  70     150      140       65      100     75
+231                Heracross  80     125       75       40       95     85
+232  HeracrossMega Heracross  80     185      115       40      105     75
+290                Beautifly  60      70       50      100       50     65
+292                   Dustox  60      50       70       50       90     65
+308               Masquerain  70      60       62       80       82     60
+315                  Ninjask  61      90       45       50       50    160
+342                  Volbeat  65      73       55       47       75     85
+343                 Illumise  65      47       55       73       75     85
+447               Kricketune  77      85       51       55       51     65
+458      WormadamPlant Cloak  60      59       85       79      105     36
+459      WormadamSandy Cloak  60      79      105       59       85     36
+460      WormadamTrash Cloak  60      69       95       69       95     36
+461                   Mothim  70      94       50       94       50     66
+463                Vespiquen  70      80      102       80      102     40
+520                  Yanmega  86      76       86      116       56     95
+602                 Leavanny  75     103       80       70       80     92
+605                Scolipede  60     100       89       55       69    112
+619                  Crustle  70      95      125       65       75     45
+650               Escavalier  70     135      105       60      105     20
+657               Galvantula  70      77       60       97       60    108
+678                 Accelgor  80      70       40      100       60    145
+693                   Durant  58     109      112       48       48    109
+697                 Larvesta  55      85       55       50       55     60
+698                Volcarona  85      60       65      135      105    100
+717                 Genesect  71     120       95      120       95     99
+734                 Vivillon  80      52       50       90       50     89
+Mean HP: 68.075
+Mean Attack: 91.075
+Mean Defense: 77.3
+Mean Sp. Atk: 69.175
+Mean Sp. Def: 76.45
+Mean Speed: 78.45
+
+Cluster 1
+           Name  HP  Attack  Defense  Sp. Atk  Sp. Def  Speed
+13     Caterpie  45      30       35       20       20     45
+14      Metapod  50      20       55       25       25     30
+16       Weedle  40      35       30       20       20     50
+17       Kakuna  45      25       50       25       25     35
+51        Paras  35      70       55       45       55     25
+53      Venonat  60      55       50       40       55     45
+179      Ledyba  40      20       30       40       80     55
+181    Spinarak  40      60       40       40       40     30
+219      Pineco  50      65       90       35       35     15
+288     Wurmple  45      45       35       20       30     20
+289     Silcoon  50      35       55       25       25     15
+291     Cascoon  50      35       55       25       25     15
+307     Surskit  40      30       32       50       52     65
+314     Nincada  31      45       90       30       30     40
+316    Shedinja   1      90       45       30       30     40
+446   Kricketot  37      25       41       25       41     25
+457       Burmy  40      29       45       29       45     36
+462      Combee  30      30       42       30       42     70
+600    Sewaddle  45      53       70       40       60     42
+601    Swadloon  55      63       90       50       80     42
+603    Venipede  30      45       59       30       39     57
+604  Whirlipede  40      55       99       40       79     47
+618     Dwebble  50      65       85       35       35     55
+649  Karrablast  50      75       45       40       45     60
+656      Joltik  50      47       50       57       50     65
+677     Shelmet  50      40       85       40       65     25
+732  Scatterbug  38      35       40       27       25     35
+733      Spewpa  45      22       60       27       30     29
+Mean HP: 42.214285714285715
+Mean Attack: 44.42857142857143
+Mean Defense: 55.642857142857146
+Mean Sp. Atk: 33.57142857142857
+Mean Sp. Def: 42.25
+Mean Speed: 39.75
+
+Cluster 2
+        Name  HP  Attack  Defense  Sp. Atk  Sp. Def  Speed
+230  Shuckle  20      10      230       10      230      5
+Mean HP: 20.0
+Mean Attack: 10.0
+Mean Defense: 230.0
+Mean Sp. Atk: 10.0
+Mean Sp. Def: 230.0
+Mean Speed: 5.0
+
+
+Normal
+-----
+Cluster 0
+                          Name   HP  Attack  Defense  Sp. Atk  Sp. Def  Speed
+22                     Pidgeot   83      80       75       70       70    101
+23         PidgeotMega Pidgeot   83      80       80      135       80    121
+25                    Raticate   55      81       60       50       70     97
+27                      Fearow   65      90       65       61       61    100
+58                     Persian   65      70       60       65       65    115
+92                      Dodrio   60     110       70       60       60    100
+123                 Kangaskhan  105      95       80       40       80     90
+124  KangaskhanMega Kangaskhan  105     125      100       60      100    100
+138                     Tauros   75     100       95       40       70    110
+176                     Furret   85      76       64       45       55     90
+218                  Girafarig   70      80       65       90       65     85
+235                   Ursaring   90     130       75       75       75     55
+253                   Stantler   73      95       62       85       65     85
+260                    Miltank   95      80      105       40       70    100
+287                    Linoone   78      70       61       50       61    100
+300                    Swellow   60      85       60       50       50    125
+312                   Vigoroth   80      80       80       55       55     90
+313                    Slaking  150     160      100       95       65    100
+367                   Zangoose   73     115       60       60       60     90
+383                   Castform   70      70       70       70       70     70
+443                  Staraptor   85     120       70       50       60    100
+445                    Bibarel   79      85       60       55       60     71
+471                    Ambipom   75     100       66       60       66    115
+475                    Lopunny   65      76       84       54       96    105
+476        LopunnyMega Lopunny   65     136       94       54       96    135
+480                    Purugly   71      82       64       64       59    112
+489                     Chatot   76      65       45       92       42     91
+525                  Porygon-Z   85      80       70      135       75     90
+543                  Regigigas  110     160      110       80      110    100
+552                     Arceus  120     120      120      120      120    120
+564                    Watchog   60      85       69       60       69     77
+567                  Stoutland   85     110       90       45       90     80
+580                   Unfezant   80     115       80       65       55     93
+634                   Cinccino   75      95       60       65       60    115
+647                   Sawsbuck   80     100       70       60       70     95
+689                   Braviary  100     123       75       57       75     80
+716    MeloettaPirouette Forme  100     128       90       77       77    128
+728                  Diggersby   85      56       77       50       77     78
+744                    Furfrou   75      80       60       65       90    102
+Mean HP: 81.82051282051282
+Mean Attack: 97.12820512820512
+Mean Defense: 75.41025641025641
+Mean Sp. Atk: 66.76923076923077
+Mean Sp. Def: 71.64102564102564
+Mean Speed: 97.71794871794872
+
+Cluster 1
+           Name   HP  Attack  Defense  Sp. Atk  Sp. Def  Speed
+20       Pidgey   40      45       40       35       35     56
+21    Pidgeotto   63      60       55       50       50     71
+24      Rattata   30      56       35       25       35     72
+26      Spearow   40      60       30       31       31     70
+44   Jigglypuff  115      45       20       45       25     20
+57       Meowth   40      45       35       40       40     90
+90   Farfetch'd   52      65       55       58       62     60
+91        Doduo   35      85       45       35       35     75
+143       Ditto   48      48       48       48       48     48
+144       Eevee   55      55       50       45       65     55
+175     Sentret   35      46       34       35       45     20
+177    Hoothoot   60      30       30       36       56     50
+188   Igglybuff   90      30       15       40       20     15
+205       Aipom   55      70       55       40       55     85
+234   Teddiursa   60      80       50       50       50     40
+254    Smeargle   55      20       35       20       45     75
+286   Zigzagoon   38      30       41       30       41     60
+299     Taillow   40      55       30       30       30     85
+311     Slakoth   60      60       60       35       35     30
+317     Whismur   64      51       23       51       23     28
+318     Loudred   84      71       43       71       43     48
+322     Azurill   50      20       40       20       40     20
+324      Skitty   50      45       45       35       35     50
+325    Delcatty   70      65       65       55       55     70
+358      Spinda   60      60       60       60       60     60
+364      Swablu   45      40       60       40       75     50
+441      Starly   40      55       30       30       30     60
+442    Staravia   55      75       50       40       40     80
+444      Bidoof   59      45       40       35       40     31
+474     Buneary   55      66       44       44       56     85
+479     Glameow   49      55       42       42       37     85
+488     Happiny  100       5        5       15       65     30
+563      Patrat   45      55       39       35       39     42
+565    Lillipup   45      60       45       25       45     55
+566     Herdier   65      80       65       35       65     60
+578      Pidove   50      55       50       36       30     43
+579   Tranquill   62      77       62       50       42     65
+633    Minccino   55      50       40       40       40     75
+646    Deerling   60      60       50       40       50     75
+688     Rufflet   70      83       50       37       50     60
+727    Bunnelby   38      36       38       32       36     57
+729  Fletchling   45      50       43       40       38     62
+Mean HP: 55.404761904761905
+Mean Attack: 53.42857142857143
+Mean Defense: 42.666666666666664
+Mean Sp. Atk: 38.95238095238095
+Mean Sp. Def: 43.73809523809524
+Mean Speed: 56.38095238095238
+
+Cluster 2
+                   Name   HP  Attack  Defense  Sp. Atk  Sp. Def  Speed
+45           Wigglytuff  140      70       45       85       50     45
+116           Lickitung   90      55       75       60       75     30
+121             Chansey  250       5        5       35      105     50
+148             Porygon   65      60       70       85       75     40
+155             Snorlax  160     110       65       65      110     30
+178             Noctowl  100      50       50       76       96     70
+221           Dunsparce  100      70       70       65       65     45
+252            Porygon2   85      80       90      105       95     60
+261             Blissey  255      10       10       75      135     55
+319             Exploud  104      91       63       91       73     68
+384             Kecleon   60      90       70       60      120     40
+495            Munchlax  135      85       40       40       85      5
+514          Lickilicky  110      85       95       80       95     50
+590              Audino  103      60       86       60       86     50
+591   AudinoMega Audino  103      60      126       80      126     50
+687          Bouffalant   95     110       95       40       95     55
+715  MeloettaAria Forme  100      77       77      128      128     90
+Mean HP: 120.88235294117646
+Mean Attack: 68.70588235294117
+Mean Defense: 66.58823529411765
+Mean Sp. Atk: 72.3529411764706
+Mean Sp. Def: 94.94117647058823
+Mean Speed: 49.0
